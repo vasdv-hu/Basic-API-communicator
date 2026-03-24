@@ -1,0 +1,113 @@
+2026-38-23-15-38-22 : App started
+2026-38-23-15-38-53|INFO||Calling on API
+2026-38-23-15-38-53|INFO||response: {"id":"yhx9jBHiciWegufh","tags":[],"created_at":"2022-06-30T06:05:15.043Z","url":"https://cataas.com/cat/yhx9jBHiciWegufh?position=center","mimetype":"image/jpeg"}
+2026-38-23-15-38-53|INFO||Kitty is serialised : True
+2026-38-23-15-38-54|INFO||Data loaded into UI
+2026-38-23-15-38-58|INFO||Calling on API
+2026-38-23-15-38-58|INFO||response: {"id":"WfqRFQ0Bsv3AkzlO","tags":["White","orange","sleep"],"created_at":"2024-06-03T08:59:07.257Z","url":"https://cataas.com/cat/WfqRFQ0Bsv3AkzlO?position=center","mimetype":"image/jpeg"}
+2026-38-23-15-38-58|INFO||Kitty is serialised : True
+2026-38-23-15-38-58|INFO||Data loaded into UI
+2026-39-23-15-39-00|INFO||Calling on API
+2026-39-23-15-39-00|INFO||response: {"id":"B3wtXRYDiqrPo4sX","tags":[],"created_at":"2020-01-24T19:54:12.585Z","url":"https://cataas.com/cat/B3wtXRYDiqrPo4sX?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-00|INFO||Kitty is serialised : True
+2026-39-23-15-39-00|INFO||Data loaded into UI
+2026-39-23-15-39-02|INFO||Calling on API
+2026-39-23-15-39-02|INFO||response: {"id":"q0wsZgEtQNLV4BC1","tags":["black","beer"],"created_at":"2016-10-08T23:39:12.545Z","url":"https://cataas.com/cat/q0wsZgEtQNLV4BC1?position=center","mimetype":"image/png"}
+2026-39-23-15-39-02|INFO||Kitty is serialised : True
+2026-39-23-15-39-02|INFO||Data loaded into UI
+2026-39-23-15-39-03|INFO||Calling on API
+2026-39-23-15-39-03|INFO||response: {"id":"MXKi9Rdi8SAuFq8k","tags":["cute"],"created_at":"2024-09-15T15:48:43.314Z","url":"https://cataas.com/cat/MXKi9Rdi8SAuFq8k?position=center","mimetype":"image/png"}
+2026-39-23-15-39-03|INFO||Kitty is serialised : True
+2026-39-23-15-39-04|INFO||Data loaded into UI
+2026-39-23-15-39-05|INFO||Calling on API
+2026-39-23-15-39-05|INFO||response: {"id":"u5p5vTnjKcTXfs0O","tags":[],"created_at":"2020-07-16T20:29:41.264Z","url":"https://cataas.com/cat/u5p5vTnjKcTXfs0O?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-05|INFO||Kitty is serialised : True
+2026-39-23-15-39-05|INFO||Data loaded into UI
+2026-39-23-15-39-06|INFO||Calling on API
+2026-39-23-15-39-06|INFO||response: {"id":"JgWaCxZ0sz3yZ2Xz","tags":["tortie","orange","multiple"],"created_at":"2024-04-28T00:19:25.187Z","url":"https://cataas.com/cat/JgWaCxZ0sz3yZ2Xz?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-06|INFO||Kitty is serialised : True
+2026-39-23-15-39-06|INFO||Data loaded into UI
+2026-39-23-15-39-07|INFO||Calling on API
+2026-39-23-15-39-07|INFO||response: {"id":"H9IWzyx2wsf4I7Qw","tags":["cute","white","sleepy"],"created_at":"2023-11-09T13:47:31.080Z","url":"https://cataas.com/cat/H9IWzyx2wsf4I7Qw?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-07|INFO||Kitty is serialised : True
+2026-39-23-15-39-07|INFO||Data loaded into UI
+2026-39-23-15-39-07|INFO||Calling on API
+2026-39-23-15-39-07|INFO||response: {"id":"NMKQv3zHC0JDsxTD","tags":["Cute","orange","cream","adult","kittypet","carrier"],"created_at":"2024-08-24T02:37:40.379Z","url":"https://cataas.com/cat/NMKQv3zHC0JDsxTD?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-07|INFO||Kitty is serialised : True
+2026-39-23-15-39-07|INFO||Calling on API
+2026-39-23-15-39-07|INFO||response: {"id":"rg80PTZ03AW7Qmkf","tags":[],"created_at":"2020-04-17T09:00:37.468Z","url":"https://cataas.com/cat/rg80PTZ03AW7Qmkf?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-07|INFO||Kitty is serialised : True
+2026-39-23-15-39-07|INFO||Data loaded into UI
+2026-39-23-15-39-08|INFO||Data loaded into UI
+2026-39-23-15-39-08|INFO||Calling on API
+2026-39-23-15-39-08|INFO||response: {"id":"ga98XxtBgyUQkRcN","tags":["detective"],"created_at":"2018-03-21T16:09:44.033Z","url":"https://cataas.com/cat/ga98XxtBgyUQkRcN?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-08|INFO||Kitty is serialised : True
+2026-39-23-15-39-08|INFO||Calling on API
+2026-39-23-15-39-08|INFO||response: {"id":"SW2Cs8h9cHWMmyTu","tags":["chunky","fat","cute","orange","tabby"],"created_at":"2023-11-21T15:24:36.140Z","url":"https://cataas.com/cat/SW2Cs8h9cHWMmyTu?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-08|INFO||Kitty is serialised : True
+2026-39-23-15-39-08|INFO||Data loaded into UI
+2026-39-23-15-39-08|INFO||Calling on API
+2026-39-23-15-39-08|INFO||response: {"id":"HTjBKfHqCZn9lkRt","tags":["funny","white","playing","zoomies"],"created_at":"2024-01-03T18:29:13.006Z","url":"https://cataas.com/cat/HTjBKfHqCZn9lkRt?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-08|INFO||Kitty is serialised : True
+2026-39-23-15-39-08|INFO||Calling on API
+2026-39-23-15-39-08|INFO||response: {"id":"IPkRTJpTciXAWR4S","tags":["Grey","cute","baby"],"created_at":"2024-06-03T21:56:29.174Z","url":"https://cataas.com/cat/IPkRTJpTciXAWR4S?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-08|INFO||Kitty is serialised : True
+2026-39-23-15-39-08|INFO||Data loaded into UI
+2026-39-23-15-39-08|INFO||Data loaded into UI
+2026-39-23-15-39-08|INFO||Calling on API
+2026-39-23-15-39-08|INFO||response: {"id":"BsQLGLrdOuOILM1L","tags":["Polysson","kinky pussy","fluffy pussy"],"created_at":"2023-10-25T09:14:57.040Z","url":"https://cataas.com/cat/BsQLGLrdOuOILM1L?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-08|INFO||Kitty is serialised : True
+2026-39-23-15-39-08|INFO||Calling on API
+2026-39-23-15-39-08|INFO||response: {"id":"yTIrxrcSGvBR05o8","tags":[],"created_at":"2021-01-24T01:20:53.651Z","url":"https://cataas.com/cat/yTIrxrcSGvBR05o8?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-08|INFO||Kitty is serialised : True
+2026-39-23-15-39-08|INFO||Data loaded into UI
+2026-39-23-15-39-09|INFO||Data loaded into UI
+2026-39-23-15-39-09|INFO||Data loaded into UI
+2026-39-23-15-39-09|INFO||Calling on API
+2026-39-23-15-39-09|INFO||response: {"id":"VKsaYlVRCMgrCL9Z","tags":["glass"],"created_at":"2022-05-01T22:35:01.037Z","url":"https://cataas.com/cat/VKsaYlVRCMgrCL9Z?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-09|INFO||Kitty is serialised : True
+2026-39-23-15-39-09|INFO||Data loaded into UI
+2026-39-23-15-39-09|INFO||Calling on API
+2026-39-23-15-39-09|INFO||response: {"id":"7XiIbdzOHlTxZZHm","tags":["cute","eyes"],"created_at":"2015-11-06T18:36:54.148Z","url":"https://cataas.com/cat/7XiIbdzOHlTxZZHm?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-09|INFO||Kitty is serialised : True
+2026-39-23-15-39-09|INFO||Data loaded into UI
+2026-39-23-15-39-09|INFO||Calling on API
+2026-39-23-15-39-09|INFO||response: {"id":"sjgRq2VoCAuNDo7R","tags":[],"created_at":"2021-01-14T11:21:21.492Z","url":"https://cataas.com/cat/sjgRq2VoCAuNDo7R?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-09|INFO||Kitty is serialised : True
+2026-39-23-15-39-09|INFO||Calling on API
+2026-39-23-15-39-09|INFO||response: {"id":"LWibhYxJr2Vj0Pn7","tags":["cute","orange","black","lick"],"created_at":"2023-10-25T00:00:16.767Z","url":"https://cataas.com/cat/LWibhYxJr2Vj0Pn7?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-09|INFO||Kitty is serialised : True
+2026-39-23-15-39-09|INFO||Data loaded into UI
+2026-39-23-15-39-09|INFO||Calling on API
+2026-39-23-15-39-09|INFO||Data loaded into UI
+2026-39-23-15-39-09|INFO||response: {"id":"5R4FE549iPgrMaQ9","tags":["cat"],"created_at":"2022-04-20T15:46:39.362Z","url":"https://cataas.com/cat/5R4FE549iPgrMaQ9?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-09|INFO||Kitty is serialised : True
+2026-39-23-15-39-09|INFO||Data loaded into UI
+2026-39-23-15-39-10|INFO||Calling on API
+2026-39-23-15-39-10|INFO||response: {"id":"znF5PBe5peAS0zMm","tags":["orange","multiple","action"],"created_at":"2024-04-28T00:12:08.082Z","url":"https://cataas.com/cat/znF5PBe5peAS0zMm?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-10|INFO||Kitty is serialised : True
+2026-39-23-15-39-10|INFO||Data loaded into UI
+2026-39-23-15-39-11|INFO||Calling on API
+2026-39-23-15-39-11|INFO||response: {"id":"79oB5kB7Kns9wXbb","tags":["computer"],"created_at":"2016-11-30T09:32:48.294Z","url":"https://cataas.com/cat/79oB5kB7Kns9wXbb?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-11|INFO||Kitty is serialised : True
+2026-39-23-15-39-11|INFO||Data loaded into UI
+2026-39-23-15-39-11|INFO||Calling on API
+2026-39-23-15-39-11|INFO||response: {"id":"4wziKEvjfJTzZ1cr","tags":[],"created_at":"2022-08-30T08:28:19.900Z","url":"https://cataas.com/cat/4wziKEvjfJTzZ1cr?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-11|INFO||Kitty is serialised : True
+2026-39-23-15-39-12|INFO||Data loaded into UI
+2026-39-23-15-39-12|INFO||Calling on API
+2026-39-23-15-39-12|INFO||response: {"id":"lPcuLeUbv9dsfIfh","tags":["cute"],"created_at":"2024-09-15T15:47:35.170Z","url":"https://cataas.com/cat/lPcuLeUbv9dsfIfh?position=center","mimetype":"image/png"}
+2026-39-23-15-39-12|INFO||Kitty is serialised : True
+2026-39-23-15-39-12|INFO||Data loaded into UI
+2026-39-23-15-39-13|INFO||Calling on API
+2026-39-23-15-39-13|INFO||response: {"id":"BfpkmGO1ZLMjG1AR","tags":["orange","sleep"],"created_at":"2024-02-19T19:49:23.602Z","url":"https://cataas.com/cat/BfpkmGO1ZLMjG1AR?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-13|INFO||Kitty is serialised : True
+2026-39-23-15-39-13|INFO||Data loaded into UI
+2026-39-23-15-39-13|INFO||Calling on API
+2026-39-23-15-39-13|INFO||response: {"id":"arPZrVNJBZzsC5j7","tags":["black","black and white","Oreo","sleeping","curled","curled up","cute"],"created_at":"2025-01-20T02:13:52.084Z","url":"https://cataas.com/cat/arPZrVNJBZzsC5j7?position=center","mimetype":"image/png"}
+2026-39-23-15-39-13|INFO||Kitty is serialised : True
+2026-39-23-15-39-16|INFO||Data loaded into UI
+2026-39-23-15-39-33|INFO||Calling on API
+2026-39-23-15-39-33|INFO||response: {"id":"clrjmVqRb7hOofBV","tags":["Tabby","hissing"],"created_at":"2024-01-20T17:22:49.662Z","url":"https://cataas.com/cat/clrjmVqRb7hOofBV?position=center","mimetype":"image/jpeg"}
+2026-39-23-15-39-33|INFO||Kitty is serialised : True
+2026-39-23-15-39-33|INFO||Data loaded into UI

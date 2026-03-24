@@ -1,0 +1,5 @@
+2026-41-23-15-41-31 : App started
+2026-41-23-15-41-37|INFO||Calling on API
+2026-41-23-15-41-37|INFO||response: {"id":"Ek4KlXUUSGAwgHj8","tags":["tech"],"created_at":"2021-06-28T18:19:52.536Z","url":"https://cataas.com/cat/Ek4KlXUUSGAwgHj8?position=center","mimetype":"image/jpeg"}
+2026-41-23-15-41-37|INFO||Kitty is serialised : True
+2026-41-23-15-41-38|INFO||Data loaded into UI
