@@ -28,7 +28,6 @@ namespace APIBullshit
 
         private string LogPath = String.Empty;
         private void ValidateDirectory(string directoryPath){
-            //WriteToLog(kind: 1, extraData: $"Validating directory {directoryPath}");
             if (!Directory.Exists(directoryPath))
                 Directory.CreateDirectory(directoryPath);
         }
@@ -44,15 +43,12 @@ namespace APIBullshit
             catch (Exception e){
                 WriteToLog(e);
 
-                if(e.GetType() == typeof(System.IO.FileNotFoundException))
-                {
-                    ConfigFile configDefault = new ConfigFile(URL:"https://cataas.com/");
-                    string rawJSON = JsonSerializer.Serialize<ConfigFile>(configDefault);
+                ConfigFile configDefault = new ConfigFile(URL:"https://cataas.com/");
+                string rawJSON = JsonSerializer.Serialize<ConfigFile>(configDefault);
 
-                    File.WriteAllText("config.json", rawJSON);
-                }
+                File.WriteAllText("config.json", rawJSON);
 
-                return "";
+                return configDefault.URL;
             }
         }
         private static HttpClient jsonClient = new HttpClient();
