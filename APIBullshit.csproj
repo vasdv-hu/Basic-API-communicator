@@ -22,8 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Kissprobaszolnok.jpg" />
-    <Resource Include="Spinner.gif" />
+    <Resource Include="Images\Kissprobaszolnok.jpg" />
+    <Resource Include="Images\Spinner.gif" />
   </ItemGroup>
 
 </Project>
