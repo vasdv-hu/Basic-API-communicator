@@ -13,14 +13,17 @@
 
   <ItemGroup>
     <None Remove="Kissprobaszolnok.jpg" />
+    <None Remove="Spinner.gif" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="10.0.5" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Kissprobaszolnok.jpg" />
+    <Resource Include="Spinner.gif" />
   </ItemGroup>
 
 </Project>

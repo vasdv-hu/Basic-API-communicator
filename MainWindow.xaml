@@ -4,19 +4,38 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:APIBullshit"
-        mc:Ignorable="d"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
         Title="API Interface" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="TextBlock" x:Key="IDStyle">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Cursor" Value="Hand"/>
+                </Trigger>
+                <Trigger Property="IsMouseOver" Value="False">
+                    <Setter Property="Cursor" Value="Arrow"/>
+                </Trigger>
+                <Trigger Property="Text" Value="">
+                    <Setter Property="Cursor" Value="Arrow"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
     <Grid>
         <StackPanel Orientation="Vertical" Width="400">
             <Label Content="ID"/>
-            <TextBlock Name="id_TextBox" Background="#FFE8E8E8"/>
+            <TextBlock Name="id_TextBox" Background="#FFE8E8E8" MouseLeftButtonDown="id_TextBox_MouseLeftButtonDown" Style="{StaticResource IDStyle}"/>
             <Label Content="Tags"/>
             <TextBlock Name="tags_TextBox" Background="#FFE8E8E8"></TextBlock>
             <Label Content="Created At"/>
             <TextBlock Name="created_at_TextBox" Background="#FFE8E8E8"/>
             <Label Content="Mimetype"/>
             <TextBlock Name="mimetype_TextBox" Background="#FFE8E8E8"/>
-            <Image x:Name="cat_Image" Width="250" Height="250" Source="/Kissprobaszolnok.jpg" Stretch="Uniform"/>
+            <Image x:Name="cat_Image" Width="250" Height="250" Source="/Kissprobaszolnok.jpg" Stretch="Uniform">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Spinner.gif"/>
+                </Image.OpacityMask>
+            </Image>
         </StackPanel>
         <Button Content="Get Cat" Click="Button_Click" Height="40" Width="100" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
         <Button Content="Open Directory" Click="DirectoryButton_Click" Height="40" Width="100" HorizontalAlignment="Right" VerticalAlignment="Bottom" Name="DirectoryButton"/>

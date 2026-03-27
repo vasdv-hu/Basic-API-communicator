@@ -1,12 +1,9 @@
 ﻿using System.Diagnostics;
 using System.IO;
-using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
 using System.Windows;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 
 namespace APIBullshit
@@ -57,27 +54,7 @@ namespace APIBullshit
         {
             return DateTime.Now.ToString("yyyy-mm-dd-HH-mm-ss"); 
         }
-        public Cat currentCat;
-
-        /*
-         * Ezt még nem implementálom, de jó lenne egy dinamikusan frissülő
-         * log olvasó a programban ami ezt tudja használni
-         * 
-         * private string LogFileContents
-            {
-                get
-                {
-                    if (!File.Exists(LogPath))
-                        CreateLogFile();
-
-                    return File.ReadAllText(LogPath);
-                }
-                set
-                {
-                    throw new NotSupportedException();
-                }
-            }
-        */
+        private Cat? currentCat;
 
         private void CreateLogFile()
         {
@@ -86,7 +63,7 @@ namespace APIBullshit
             LogPath = $"logs/{timeNow()}.txt";
             File.WriteAllText(LogPath, $"{timeNow()} : App started\n");
         }
-        private void WriteToLog(Exception? error = null, int? kind = 0, string? extraData = "")
+        private void WriteToLog(Exception? error = null, string? extraData = "")
         {
             bool errorExists = error != null;
             bool extraExists = extraData != string.Empty;
@@ -94,19 +71,19 @@ namespace APIBullshit
             if (!errorExists && !extraExists)
                 return;
 
-            string logText = "";
-            switch (kind)
-            {
-                case 0 :
-                    logText = $"ERROR|{error.GetType()}|{error.Message}";
-                    break;
-                case 1:
-                    logText = $"INFO|";
-                    break;
-            }
+            string logText = (error != null) ? $"$\"ERROR|{error.GetType()}|{error.Message}\"" : "INFO|";
 
             File.AppendAllText(LogPath, $"{timeNow()}|{logText}|{extraData}\n");
         }
+
+        private void CacheKitty(Cat cacheableCat)
+        {
+            ValidateDirectory("cache");
+
+            string rawJSON = JsonSerializer.Serialize<Cat>(cacheableCat);
+            File.WriteAllText($"cache/{cacheableCat.id}.json", rawJSON);
+        }
+
 
         public MainWindow()
         {
@@ -126,24 +103,15 @@ namespace APIBullshit
                 WriteToLog(error:e);
             }
         }
-
-        private void CacheKitty(Cat cacheableCat)
-        {
-            ValidateDirectory("cache");
-
-            string rawJSON = JsonSerializer.Serialize<Cat>(cacheableCat);
-            File.WriteAllText($"cache/{cacheableCat.id}.json", rawJSON);
-        }
-
         private async Task GetAPIResponse()
         {
             using HttpResponseMessage response = await jsonClient.GetAsync("cat?json=true");
             var jsonResponse = await response.Content.ReadAsStringAsync();
-            WriteToLog(kind: 1, extraData: $"response: {jsonResponse}");
+            WriteToLog(extraData: $"response: {jsonResponse}");
 
             Cat? kittySerialised = JsonSerializer.Deserialize<Cat>(jsonResponse);
             bool serialSuccess = kittySerialised != null;
-            WriteToLog(kind: 1, extraData: $"Kitty is serialised : {serialSuccess}");
+            WriteToLog(extraData: $"Kitty is serialised : {serialSuccess}");
 
             if (!serialSuccess)
                 return;
@@ -186,18 +154,26 @@ namespace APIBullshit
             bit.EndInit();
 
             cat_Image.Source = bit;
-            WriteToLog(kind: 1, extraData: "Data loaded into UI");
+            WriteToLog(extraData: "Data loaded into UI");
         }
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            WriteToLog(kind: 1, extraData: "Calling on API");
+            // TODO : call function that changes Image source to gif
+
+            WriteToLog(extraData: "Calling on API");
             await GetAPIResponse();
         }
 
         private void DirectoryButton_Click(object sender, RoutedEventArgs e)
         {
             Process.Start("explorer.exe", $"{Directory.GetCurrentDirectory()}");
+        }
+
+        private void id_TextBox_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            if(id_TextBox.Text != String.Empty)
+            Clipboard.SetText(id_TextBox.Text);
         }
     }
 }
